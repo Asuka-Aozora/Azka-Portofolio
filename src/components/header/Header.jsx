@@ -76,7 +76,7 @@ const Header = () => {
               </li>
               <li className="social-item">
                 <a
-                  href="https://linkedin.com/in/arsyad-gustami-23b3b0262"
+                  href="https://www.linkedin.com/in/azka-musthafa-hafiz-4a6892321/"
                   target="_blank"
                 >
                   <img src={Linkedin} />
@@ -90,7 +90,10 @@ const Header = () => {
                 </Link>
               </li>
               <li className="social-item">
-                <a href="https://www.instagram.com/__daysra/" target="_blank">
+                <a
+                  href="https://www.instagram.com/azka_aozora/"
+                  target="_blank"
+                >
                   <img src={Instagram} />
                   <span className="tooltip text">Instagram</span>
                 </a>
