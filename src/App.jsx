@@ -1,9 +1,9 @@
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { createBrowserRouter as Router, RouterProvider } from "react-router-dom";
 import Home from "./screens/home/HomeScreen";
 import Error from "./screens/error/ErrorScreen";
 import "./assets/sass/style.scss";
 
-const router = createBrowserRouter([
+const router = Router([
   {
     path: "/",
     element: <Home />,

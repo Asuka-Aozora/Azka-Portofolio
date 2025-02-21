@@ -10,32 +10,13 @@ import {
   Travelling,
   Wacthing,
   SkillTailwind,
-  QodrBee,
   express,
   node,
 } from "../assets/image";
 
 const DATA = {
   InternExperiences: [
-    {
-      id: "intern_exp_1",
-      startDate: "May 2024",
-      endDate: "October 2024",
-      project: "Frontend Web Developer",
-      company: {
-        logo: QodrBee,
-        name: "PT Qodr Bee Berinovasi",
-        info: "IT Consultant",
-      },
-      description:
-        "Developed a Jira-like employee management application using React.js, which allows users to track tasks, collaborate in teams, and manage projects. Worked closely with the backend team to integrate REST APIs, ensuring the data displayed on the frontend is always up-to-date and consistent.",
-      links: [
-        {
-          label: "View Website",
-          url: "https://qodrbee.com/",
-        },
-      ],
-    },
+    
   ],
   projectExperiences: [
     {
