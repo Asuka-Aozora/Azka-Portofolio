@@ -10,8 +10,16 @@ import {
   Travelling,
   Wacthing,
   SkillTailwind,
+  SkillNextJs,
   express,
   node,
+  PostgreSQL,
+  MySQL,
+  Supabase,
+  Firebase,
+  JWT,
+  Oauth,
+  MongoDB,
 } from "../assets/image";
 
 const DATA = {
@@ -195,6 +203,54 @@ const DATA = {
       icon: SkillGithub,
       name: "GitHub",
       description: "Working Team With Version Control System",
+    },
+    {
+      id: "skill_10",
+      icon: SkillNextJs,
+      name: "Next JS",
+      description: "React JS Framework",
+    },
+    {
+      id: "skill_11",
+      icon: PostgreSQL,
+      name: "PostgreSQL",
+      description: "Database Management System",
+    },
+    {
+      id: "skill_12",
+      icon: MySQL,
+      name: "MySQL",
+      description: "Relational Database Management System",
+    },
+    {
+      id: "skill_13",
+      icon: MongoDB,
+      name: "MongoDB",
+      description: "NoSQL Document-Oriented Database",
+    },
+    {
+      id: "skill_14",
+      icon: Supabase,
+      name: "Supabase",
+      description: "Open-source Firebase Alternative",
+    },
+    {
+      id: "skill_15",
+      icon: Firebase,
+      name: "Firebase",
+      description: "Cloud-based NoSQL Realtime Database",
+    },
+    {
+      id: "skill_16",
+      icon: JWT,
+      name: "JWT",
+      description: "JSON Web Token for Authentication",
+    },
+    {
+      id: "skill_17",
+      icon: Oauth,
+      name: "Oauth",
+      description: "Authentication protocol to access resources securely",
     },
   ],
   certificatesAndAwards: [

@@ -31,12 +31,26 @@ import express from './images/express.png';
 import node from './images/nodejs.png';
 import Google from "./images/google.png";
 import Reading from "./images/reading.png";
+import PostgreSQL from "./images/postgresql.png";
+import MySQL from "./images/mysql.svg";
+import MongoDB from "./images/mongoDB.svg";
+import Supabase from "./images/supabase.svg";
+import Firebase from "./images/firebase.svg";
+import JWT from "./images/jwt-3.svg";
+import Oauth from "./images/oauth.svg";
 import Travelling from "./images/travelling.png";
 import Wacthing from "./images/tv.png";
 import Gaming from "./images/gaming.png";
 import QodrBee from './images/qodrbee.png';
 
 export {
+  Supabase,
+  Firebase,
+  JWT,
+  Oauth,
+  MongoDB,
+  MySQL,
+  PostgreSQL,
   AvatarPNG,
   DiamondBlue,
   DiamondPink,
