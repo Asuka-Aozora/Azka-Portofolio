@@ -5,6 +5,7 @@ import {
   SkillHtml5,
   SkillReact,
   SkillJavascript,
+  TypeScript,
   SkillGithub,
   SkillRedux,
   Travelling,
@@ -17,112 +18,137 @@ import {
   MySQL,
   Supabase,
   Firebase,
-  JWT,
-  Oauth,
   MongoDB,
 } from "../assets/image";
 
 const DATA = {
-  InternExperiences: [],
+  InternExperiences: [
+    {
+      id: "intern_exp_1",
+      startDate: "August 2025",
+      endDate: "December 2025",
+      role: "Mentor",
+      company: {
+        logo: "https://www.qodr.id/qodr_logo-only_outline.svg",
+        name: "Qodr IT Training",
+        info: "Islamic IT Training Boarding School",
+      },
+      type: "Freelance Developer, WFO",
+      description:
+        "Mentored junior developers in full-stack web development (Node.js, Express, JavaScript, Git workflow). Provided hands-on guidance in debugging, deployment, and system troubleshooting. Taught foundational IT support topics including LAN configuration and Linux administration. Fostered collaborative teamwork and problem-solving culture in real project environments.",
+    },
+    {
+      id: "intern_exp_2",
+      startDate: "May 2025",
+      endDate: "July 2025",
+      role: "Full-Stack Developer Intern",
+      company: {
+        logo: "",
+        name: "PT. Qodr Bee Berinovasi",
+        info: "Technology Company",
+      },
+      type: "Internship, Remote",
+      description:
+        "Worked as a Full-Stack Developer on internal application projects. Developed and deployed internal tools using Node.js, Express, PHP, and JavaScript. Assisted in server configuration and debugging during web deployments. Collaborated in a small agile team to deliver functional prototypes efficiently.",
+    },
+    {
+      id: "intern_exp_3",
+      startDate: "November 2024",
+      endDate: "2025",
+      role: "Chief Technology Officer (CTO)",
+      company: {
+        logo: "",
+        name: "Daysra Tech",
+        info: "Startup Initiative",
+      },
+      type: "Freelance, Remote",
+      description:
+        "Initiated and led development of web-based productivity tools. Designed product roadmap and built prototype applications using React and Next.js. Managed documentation, deployment, and workflow processes. Implemented authentication, user management, and database integration using Supabase and Prisma.",
+    },
+  ],
   projectExperiences: [
     {
       id: "proj_exp_1",
-      project: "Final Project at Fast Campus",
+      project: "Teras Land - Property Landing Page",
       company: {
-        logo: "https://images.icon-icons.com/1880/PNG/512/iconfinder-basket-4341280_120547.png",
-        name: "Mall Website",
-        info: "E-commerce",
+        logo: "",
+        name: "Teras Land",
+        info: "Real Estate Web Application",
       },
       description:
-        "Collaborated with a cross-functional team to redesign the front end of an e-commerce website, focusing on user experience and conversion rate optimization. Implemented responsive design principles to ensure optimal display on all devices. Utilized React.js and Redux to manage website state and user interactions effectively. Handled API fetching and data management to dynamically update website content.",
+        "Developed a modern real estate landing platform using Next.js 15 (TypeScript), Tailwind CSS, and shadcn/ui. Implemented responsive layouts, optimized image loading, and accessibility best practices. Integrated Supabase authentication and real-time database synchronization. Deployed via Vercel with CI/CD and performance optimization.",
       links: [
         {
-          label: "View Mall Website",
-          url: "https://github.com/Asuka-Aozora/Ecomerce-fast-campus",
+          label: "Teras Land",
+          url: "https://teras-land-clone.vercel.app/",
         },
       ],
     },
     {
       id: "proj_exp_2",
-      project: "Project at Qodr",
+      project: "E-Commerce Platform (Capstone Project)",
       company: {
-        logo: "https://imgs.search.brave.com/VSWfbqZqnqZthFOGkQQslRj4-v8hdteMOQzbaccD4E8/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4t/aWNvbnMtcG5nLmZy/ZWVwaWsuY29tLzI1/Ni8xNTQzOS8xNTQz/OTAwMS5wbmc_c2Vt/dD1haXNfaHlicmlk",
-        info: "Learning",
+        logo: "https://fastcampus.com/favicon.ico",
+        name: "Fast Campus",
+        info: "React E-Commerce Application",
       },
       description:
-        "Developed and maintained a cutting-edge learning platform using Next.js for server-side rendering and client-side interactivity. Architected a MySQL database schema with Prisma ORM, leveraging CUIDs for ID generation and JSON columns for flexible node styling. Implemented RESTful and GraphQL-style API routes in the Next.js App Router, complete with JWT-based authentication and secure HttpOnly cookies. Integrated React Flow to visualize the roadmap graph, enabling dynamic node clicking and real-time progress tracking stored in a db_pencapaian table. Optimized performance with connection pooling, server-side caching via revalidatePath, and edge middleware for route protection. Demonstrated expertise in TypeScript throughout, from Zod schema validation in server actions to fully typed React components, delivering a robust, scalable, and developer-friendly full-stack solution.",
+        "Built a complete e-commerce frontend implementing advanced React concepts including custom hooks and Redux state management. Designed reusable component architecture with Tailwind CSS. Integrated product, order, and authentication flows through mock APIs, focusing on maintainable and scalable UI structure.",
       links: [
         {
-          label: "View Roadmap",
-          url: "https://github.com/Asuka-Aozora/NextRoadmap",
+          label: "E-Commerce Platform",
+          url: "https://github.com/Asuka-Aozora/Ecomerce-fast-campus",
         },
       ],
     },
     {
       id: "proj_exp_3",
-      project: "Personal Project",
+      project: "Full-Stack Roadmap Platform",
       company: {
-        logo: "https://images.icon-icons.com/46/PNG/128/korganizer_task_tasks_list_9500.png",
-        name: "Task Management App",
-        info: "Task Management",
+        logo: "",
+        name: "Roadmap System",
+        info: "Interactive Learning Platform",
       },
       description:
-        "Developed a task management application using HTML, CSS, and JavaScript for the front end to enable users to create, organize, and track their tasks efficiently. Incorporated CRUD (Create, Read, Update, Delete) functionality.",
+        "Developed interactive roadmap visualization with Next.js and dynamic API integration. Implemented server-side rendering, typed components with TypeScript, and relational data handling. Focused on scalable frontend architecture and optimized data-driven UI rendering.",
       links: [
         {
-          label: "View Task Management",
-          url: "https://github.com/Asuka-Aozora/Task-Management",
+          label: "Full-Stack Roadmap Platform",
+          url: "https://github.com/Asuka-Aozora/NextRoadmap",
         },
       ],
     },
     {
       id: "proj_exp_4",
-      project: "Personal Project",
+      project: "Task Management Application",
       company: {
-        logo: "https://images.icon-icons.com/272/PNG/512/Calculator_30001.png",
-        name: "Calculator App",
-        info: "Calculator",
+        logo: "",
+        name: "Task Manager",
+        info: "CRUD Web Application",
       },
       description:
-        "Developed a calculator app featuring basic arithmetic operations and advanced functions (percentages, square roots). Utilized JavaScript's Math object for accurate calculations.",
+        "Created task management system implementing full CRUD logic with structured state handling. Designed clean UI layout and optimized user interaction flow. Demonstrated fundamental understanding of data lifecycle and component re-render behavior.",
       links: [
         {
-          label: "View Calculator",
-          url: "https://github.com/Asuka-Aozora/Calculator",
+          label: "Task Management Application",
+          url: "https://github.com/Asuka-Aozora/Task-Management",
         },
       ],
     },
     {
       id: "proj_exp_5",
-      project: "Personal Project",
+      project: "E-Commerce Plugin for WordPress",
       company: {
-        logo: "https://images.icon-icons.com/159/PNG/256/cloud_weather_22376.png",
-        name: "Weather App",
-        info: "Weather",
+        logo: "",
+        name: "WordPress Plugin",
+        info: "Business Logic System",
       },
       description:
-        "Developed a mini weather app with simple code, fetching real-time weather data from a public API using the Fetch API. Displays current weather conditions (temperature, humidity, wind speed, precipitation).",
+        "Developed modular e-commerce plugin with seller dashboard, coupon system, stock management, and transaction tracking. Built structured database schema and reusable UI components using PHP and Vanilla JavaScript within WordPress ecosystem.",
       links: [
         {
-          label: "View Weather App",
-          url: "https://github.com/Asuka-Aozora/weather_app",
-        },
-      ],
-    },
-    {
-      id: "proj_exp_6",
-      project: "Personal Project",
-      company: {
-        logo: "https://images.icon-icons.com/1154/PNG/512/1486564410-chat_81504.png",
-        name: "Realtime Chat Room",
-        info: "Chatting",
-      },
-      description:
-        "Developed a real-time chat application using HTML, CSS, and JavaScript for the front end, and integrated Socket.IO for seamless real-time communication. Implemented Express.js for robust back-end server logic and management.",
-      links: [
-        {
-          label: "View Chat Room",
-          url: "https://github.com/Asuka-Aozora/ChatRoom",
+          label: "E-Commerce Plugin for WordPress",
+          url: "https://github.com/Asuka-Aozora/Konversi-Sejoli-Final",
         },
       ],
     },
@@ -194,81 +220,75 @@ const DATA = {
     },
     {
       id: "skill_5",
+      icon: TypeScript,
+      name: "TypeScript",
+      description: "JavaScript with static typing",
+    },
+    {
+      id: "skill_6",
       icon: SkillReact,
       name: "React JS",
       description: "JavaScript Library",
     },
     {
-      id: "skill_6",
+      id: "skill_7",
       icon: SkillRedux,
       name: "Redux",
       description: "State Management",
     },
     {
-      id: "skill_7",
+      id: "skill_8",
       icon: node,
       name: "Node JS",
       description: "JavaScript Runtime Environment",
     },
     {
-      id: "skill_8",
+      id: "skill_9",
       icon: express,
       name: "Express JS",
       description: "Node JS Framework",
     },
     {
-      id: "skill_9",
+      id: "skill_10",
       icon: SkillGithub,
       name: "GitHub",
       description: "Working Team With Version Control System",
     },
     {
-      id: "skill_10",
+      id: "skill_11",
       icon: SkillNextJs,
       name: "Next JS",
       description: "React JS Framework",
     },
     {
-      id: "skill_11",
+      id: "skill_12",
       icon: PostgreSQL,
       name: "PostgreSQL",
       description: "Database Management System",
     },
     {
-      id: "skill_12",
+      id: "skill_13",
       icon: MySQL,
       name: "MySQL",
       description: "Relational Database Management System",
     },
     {
-      id: "skill_13",
+      id: "skill_14",
       icon: MongoDB,
       name: "MongoDB",
       description: "NoSQL Document-Oriented Database",
     },
     {
-      id: "skill_14",
+      id: "skill_15",
       icon: Supabase,
       name: "Supabase",
       description: "Open-source Firebase Alternative",
     },
     {
-      id: "skill_15",
+      id: "skill_16",
       icon: Firebase,
       name: "Firebase",
       description: "Cloud-based NoSQL Realtime Database",
-    },
-    {
-      id: "skill_16",
-      icon: JWT,
-      name: "JWT",
-      description: "JSON Web Token for Authentication",
-    },
-    {
-      id: "skill_17",
-      icon: Oauth,
-      name: "Oauth",
-      description: "Authentication protocol to access resources securely",
     },
   ],
   certificatesAndAwards: [
@@ -286,7 +306,7 @@ const DATA = {
       provider: "Qodr",
       course: "Advance Training Web Development",
       startDate: "August 2024",
-      endDate: "Ongoing",
+      endDate: "August 2025",
     },
   ],
   hobbiesAndInterests: [
