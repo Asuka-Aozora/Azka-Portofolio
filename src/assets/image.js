@@ -42,8 +42,10 @@ import Travelling from "./images/travelling.png";
 import Wacthing from "./images/tv.png";
 import Gaming from "./images/gaming.png";
 import QodrBee from './images/qodrbee.png';
+import TypeScript from "./images/Typescript.png";
 
 export {
+  TypeScript,
   Supabase,
   Firebase,
   JWT,

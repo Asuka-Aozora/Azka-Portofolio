@@ -73,7 +73,7 @@ const ExperienceItem = ({ item }) => {
             key={link.label}
             href={link.url}
             target="_blank"
-            className="text-mauve"
+            className="text-mauve" rel="noreferrer"
           >
             <FaLink />
             <span>{link.label}</span>
