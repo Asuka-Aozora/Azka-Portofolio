@@ -23,14 +23,13 @@ import {
 } from "../assets/image";
 
 const DATA = {
-  InternExperiences: [
-    
-  ],
+  InternExperiences: [],
   projectExperiences: [
     {
       id: "proj_exp_1",
       project: "Final Project at Fast Campus",
       company: {
+        logo: "https://images.icon-icons.com/1880/PNG/512/iconfinder-basket-4341280_120547.png",
         name: "Mall Website",
         info: "E-commerce",
       },
@@ -45,18 +44,17 @@ const DATA = {
     },
     {
       id: "proj_exp_2",
-      project: "Personal Project",
+      project: "Project at Qodr",
       company: {
-        logo: "https://github.com/Asuka-Aozora/ChatRoom",
-        name: "Realtime Chat Room",
-        info: "Chatting",
+        logo: "https://imgs.search.brave.com/VSWfbqZqnqZthFOGkQQslRj4-v8hdteMOQzbaccD4E8/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4t/aWNvbnMtcG5nLmZy/ZWVwaWsuY29tLzI1/Ni8xNTQzOS8xNTQz/OTAwMS5wbmc_c2Vt/dD1haXNfaHlicmlk",
+        info: "Learning",
       },
       description:
-        "Developed a real-time chat application using HTML, CSS, and JavaScript for the front end, and integrated Socket.IO for seamless real-time communication. Implemented Express.js for robust back-end server logic and management.",
+        "Developed and maintained a cutting-edge learning platform using Next.js for server-side rendering and client-side interactivity. Architected a MySQL database schema with Prisma ORM, leveraging CUIDs for ID generation and JSON columns for flexible node styling. Implemented RESTful and GraphQL-style API routes in the Next.js App Router, complete with JWT-based authentication and secure HttpOnly cookies. Integrated React Flow to visualize the roadmap graph, enabling dynamic node clicking and real-time progress tracking stored in a db_pencapaian table. Optimized performance with connection pooling, server-side caching via revalidatePath, and edge middleware for route protection. Demonstrated expertise in TypeScript throughout, from Zod schema validation in server actions to fully typed React components, delivering a robust, scalable, and developer-friendly full-stack solution.",
       links: [
         {
-          label: "View Chat Room",
-          url: "https://github.com/Asuka-Aozora/ChatRoom",
+          label: "View Roadmap",
+          url: "https://github.com/Asuka-Aozora/NextRoadmap",
         },
       ],
     },
@@ -64,6 +62,7 @@ const DATA = {
       id: "proj_exp_3",
       project: "Personal Project",
       company: {
+        logo: "https://images.icon-icons.com/46/PNG/128/korganizer_task_tasks_list_9500.png",
         name: "Task Management App",
         info: "Task Management",
       },
@@ -80,6 +79,7 @@ const DATA = {
       id: "proj_exp_4",
       project: "Personal Project",
       company: {
+        logo: "https://images.icon-icons.com/272/PNG/512/Calculator_30001.png",
         name: "Calculator App",
         info: "Calculator",
       },
@@ -96,6 +96,7 @@ const DATA = {
       id: "proj_exp_5",
       project: "Personal Project",
       company: {
+        logo: "https://images.icon-icons.com/159/PNG/256/cloud_weather_22376.png",
         name: "Weather App",
         info: "Weather",
       },
@@ -105,6 +106,23 @@ const DATA = {
         {
           label: "View Weather App",
           url: "https://github.com/Asuka-Aozora/weather_app",
+        },
+      ],
+    },
+    {
+      id: "proj_exp_6",
+      project: "Personal Project",
+      company: {
+        logo: "https://images.icon-icons.com/1154/PNG/512/1486564410-chat_81504.png",
+        name: "Realtime Chat Room",
+        info: "Chatting",
+      },
+      description:
+        "Developed a real-time chat application using HTML, CSS, and JavaScript for the front end, and integrated Socket.IO for seamless real-time communication. Implemented Express.js for robust back-end server logic and management.",
+      links: [
+        {
+          label: "View Chat Room",
+          url: "https://github.com/Asuka-Aozora/ChatRoom",
         },
       ],
     },

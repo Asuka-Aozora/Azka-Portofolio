@@ -52,7 +52,7 @@ const Header = () => {
                 </span>
                 <p className="info-item-text">
                   Address:{" "}
-                  <span className="text">Kab Karimun Kepri, Indonesia</span>
+                  <span className="text">Yogyakarta, Indonesia</span>
                 </p>
               </li>
               {/* <li className="grid items-start info-item">
