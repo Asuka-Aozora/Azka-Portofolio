@@ -50,21 +50,7 @@ const DATA = {
       type: "Internship, Remote",
       description:
         "Worked as a Full-Stack Developer on internal application projects. Developed and deployed internal tools using Node.js, Express, PHP, and JavaScript. Assisted in server configuration and debugging during web deployments. Collaborated in a small agile team to deliver functional prototypes efficiently.",
-    },
-    {
-      id: "intern_exp_3",
-      startDate: "November 2024",
-      endDate: "2025",
-      role: "Chief Technology Officer (CTO)",
-      company: {
-        logo: "",
-        name: "Daysra Tech",
-        info: "Startup Initiative",
-      },
-      type: "Freelance, Remote",
-      description:
-        "Initiated and led development of web-based productivity tools. Designed product roadmap and built prototype applications using React and Next.js. Managed documentation, deployment, and workflow processes. Implemented authentication, user management, and database integration using Supabase and Prisma.",
-    },
+    }
   ],
   projectExperiences: [
     {
